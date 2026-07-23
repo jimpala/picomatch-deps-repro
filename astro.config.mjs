@@ -6,4 +6,12 @@ export default defineConfig({
   output: 'server',
   adapter: cloudflare(),
   integrations: [react()],
+  // Add below to fix:
+  // vite: {
+  //   ssr: {
+  //     optimizeDeps: {
+  //       include: ['astro > @astrojs/internal-helpers > picomatch'],
+  //     },
+  //   },
+  // },
 });
