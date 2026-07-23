@@ -1,0 +1,4 @@
+overrides:
+  '@astrojs/internal-helpers>picomatch': 4.0.5
+  'astro>picomatch': 4.0.4
+  vite: 8.1.5
